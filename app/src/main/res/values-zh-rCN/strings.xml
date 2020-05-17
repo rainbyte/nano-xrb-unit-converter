@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">纳米币 (XRB) — 单位换算助手</string>
+    <string name="smallest_unit_raw">最小货币单位 (raw)</string>
+    <string name="micronano_uxrb">微纳米币 (μXRB)</string>
+    <string name="millinano_mxrb">毫纳米币 (mXRB)</string>
+    <string name="nano_xrb">纳米币 (XRB)</string>
+    <string name="donations_qrcode">捐赠二维码</string>
+    <string name="donations_label">捐赠 (点击复制)</string>
+    <string name="clipboard_copied">纳米币地址已复制！</string>
+    <string name="clipboard_donation">捐赠地址</string>
+</resources>

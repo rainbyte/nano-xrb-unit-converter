@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nano (XRB) — Unit Converter</string>
+    <string name="nano_xrb">Nano (XRB)</string>
+    <string name="millinano_mxrb">MilliNano (mXRB)</string>
+    <string name="micronano_uxrb">MicroNano (μXRB)</string>
+    <string name="smallest_unit_raw">Smallest unit (raw)</string>
+    <string name="donations_label">Donations (click to copy)</string>
+    <string name="donations_qrcode">Donations QRCode</string>
+    <string name="version_label" translatable="false">v0.0.1 by rainbyte</string>
+    <string name="clipboard_donation">Donation address</string>
+    <string name="clipboard_copied">Nano address copied!</string>
+</resources>

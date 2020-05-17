@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nano (XRB) — Conversor de Unidades</string>
+    <string name="nano_xrb">Nano (XRB)</string>
+    <string name="millinano_mxrb">MiliNano (mXRB)</string>
+    <string name="micronano_uxrb">MicroNano (μXRB)</string>
+    <string name="smallest_unit_raw">Unidad mínima (raw)</string>
+    <string name="donations_label">Donaciones (click para copiar)</string>
+    <string name="donations_qrcode">Código QR para donaciones</string>
+    <string name="clipboard_copied">¡Dirección de Nano copiada!</string>
+    <string name="clipboard_donation">Dirección de donaciones</string>
+</resources>
