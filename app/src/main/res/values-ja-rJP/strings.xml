@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ナノ (XRB) — 単位換算</string>
+    <string name="nano_xrb">ナノ (XRB)</string>
+    <string name="millinano_mxrb">ミリナノ (mXRB)</string>
+    <string name="micronano_uxrb">マイクロナノ (μXRB)</string>
+    <string name="femtonano_fxrb">フェムトナノ (fXRB)</string>
+    <string name="smallest_unit_raw">最小単位 (raw)</string>
+    <string name="donations_label">寄付 (クリックしてコピー)</string>
+    <string name="clipboard_donation">寄付アドレス</string>
+    <string name="donations_qrcode">寄付QRコード</string>
+    <string name="clipboard_copied">寄付アドレスがコピーされました！</string>
+</resources>
