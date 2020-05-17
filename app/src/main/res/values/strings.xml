@@ -9,4 +9,5 @@
     <string name="version_label" translatable="false">v0.0.1 by rainbyte</string>
     <string name="clipboard_donation">Donation address</string>
     <string name="clipboard_copied">Nano address copied!</string>
+    <string name="femtonano_fxrb">FemtoNano (fXRB)</string>
 </resources>

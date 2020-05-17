@@ -6,6 +6,7 @@ enum class NanoUnit(val decimals : Int) {
     Nano(30),
     mNano(27),
     uNano(24),
+    fNano(15),
     Raw(0);
 
     val integers = 39 - decimals

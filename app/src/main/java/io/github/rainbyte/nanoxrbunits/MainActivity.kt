@@ -58,6 +58,11 @@ class MainActivity : AppCompatActivity() {
                 update(NanoUnit.uNano, it.toString())
             }
         }
+        fNanoEdit.doAfterTextChanged {
+            if (fNanoEdit.hasFocus()) {
+                update(NanoUnit.fNano, it.toString())
+            }
+        }
         rawEdit.doAfterTextChanged {
             if (rawEdit.hasFocus()) {
                 update(NanoUnit.Raw, it.toString())
@@ -75,6 +80,7 @@ class MainActivity : AppCompatActivity() {
                 NanoUnit.Nano -> NanoEdit.setText(NanoUnit.Nano.fromRaws(raws))
                 NanoUnit.mNano -> mNanoEdit.setText(NanoUnit.mNano.fromRaws(raws))
                 NanoUnit.uNano -> uNanoEdit.setText(NanoUnit.uNano.fromRaws(raws))
+                NanoUnit.fNano -> fNanoEdit.setText(NanoUnit.fNano.fromRaws(raws))
                 NanoUnit.Raw -> rawEdit.setText(NanoUnit.Raw.fromRaws(raws))
             }
         }
