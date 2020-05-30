@@ -55,6 +55,7 @@ class MainActivity : Activity() {
         NanoEdit.filters = arrayOf(NanoUnit.Nano.inputFilter())
         mNanoEdit.filters = arrayOf(NanoUnit.mNano.inputFilter())
         uNanoEdit.filters = arrayOf(NanoUnit.uNano.inputFilter())
+        fNanoEdit.filters = arrayOf(NanoUnit.fNano.inputFilter())
         rawEdit.filters = arrayOf(NanoUnit.Raw.inputFilter())
 
         NanoEdit.doAfterTextChanged {
