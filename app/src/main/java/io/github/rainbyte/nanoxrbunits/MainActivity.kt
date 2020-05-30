@@ -1,18 +1,32 @@
 package io.github.rainbyte.nanoxrbunits
 
+import android.app.Activity
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.os.Bundle
+import android.text.Editable
 import android.text.InputFilter
+import android.text.TextWatcher
+import android.widget.EditText
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.widget.doAfterTextChanged
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val DONATION_ADDRESS = "nano_1tmt1n4is9cks3xi3eroobjosezj96aaden1pnmdngnqy7kb5nhn9koiy58s"
 
-class MainActivity : AppCompatActivity() {
+fun EditText.doAfterTextChanged(afterTextChanged: (Editable?) -> Unit) {
+    this.addTextChangedListener(object : TextWatcher {
+        override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+        }
+        override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+        }
+        override fun afterTextChanged(editable: Editable?) {
+            afterTextChanged.invoke(editable)
+        }
+    })
+}
+
+class MainActivity : Activity() {
 
     private val NanoUnit.pattern: String
         get() = """\d{0,${integers}}""" + if (decimals > 0) """(\.\d{0,${decimals}})?""" else ""
